@@ -1,0 +1,311 @@
+/*estilo general*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+
+body {
+    width: 1440px;
+    font-size: 16px;
+    font-family:'Be Vietnam Pro', sans-serif;
+    
+}
+
+
+/*  Header*/
+
+header {
+    display: flex;
+    height: 174px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-left: 10%;
+    margin-right: 10%;
+      
+}
+
+
+
+#menu {
+    position: relative;
+    right: 70px; /*para centrar mejor el menú*/
+    }
+#menu ul{
+    display: flex;
+    list-style: none;
+}
+
+#menu li{
+    padding:20px;
+    width: max-content;
+}
+
+#menu li a {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 13px;
+    color:  #242E52;
+    text-decoration: none;
+    border-radius: 50px;
+
+}
+
+.menu-link:hover {
+    font-weight: bold;
+    background-color: rgb(226, 219, 219);
+    transition: 0.2s;
+}
+
+.button-getStarted { 
+    width: 0%;
+    border-radius: 50px;
+    color: white;
+    background-color: #F3603B;
+    
+    padding: 10px;
+    width: 134px;
+    height: 44px;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+}
+
+.menu-barras {
+    display: none;
+}
+
+/*Main tiene 2 secciones: "Home" y "Nosotros" */
+
+/*Main "Home"*/
+.home {background-color: aqua;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between ;
+}
+
+#principal{
+    Width: 500px;
+    padding-top: 20px;
+}
+
+#principal h1{
+    color:#232C50;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: -0.035em;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+#principal p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    font-size: 16,56px;
+    line-height: 26,01px;
+    padding: 15px;
+    width: 350px;
+}
+
+#principal form{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#home img{
+    Width: 540px;
+    Height:485px;
+}
+
+/*Main "Nosotros"*/
+#nosotros{background-color: blueviolet;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between ;
+}
+
+    /*caja principal*/
+#about{background-color: darkorange;
+    width: 50%;
+}
+h2{
+    color:#232851;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41,26px;
+    letter-spacing: -0.035em;
+    padding: 10px;
+    text-align: left;
+    width: 70%;
+}
+
+#about p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24,18px;
+    letter-spacing: -0.035em;
+    padding: 10px;
+    text-align: left;
+    width: 60%;
+}
+
+    /*caja artículos*/
+#article{background-color: darkred;
+    display: flex;
+    flex-direction: column;
+    width: 533px;
+}
+
+.articles{ background-color: yellow;
+    display: flex;
+
+}
+
+.articles form{
+    padding-top: 5px;
+}
+
+.button-articles{
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: #F3603B;
+    
+    padding: 10px 25px;
+    width: 69px;
+    height: 43px;
+   }
+
+h3{
+    color:#323851;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding:15px;
+}
+
+
+.articles-texto p{
+    color:#B3B2B7;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16,3px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    padding:15px;
+}
+
+/* Sección comentarios*/
+
+#testimonios {background-color: rgb(153, 130, 238);
+    width: 1298px;
+    height: 478px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#testimonios-titulo {background-color: #F3603B;
+    color:#242E53;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61,41px;
+    text-align: center;
+    letter-spacing: -1%;
+}
+
+#testimonios-clientes {
+    display: flex;
+    
+    
+
+}
+.testimonio{
+    text-align: center;
+    margin: 0 15px;
+}
+.testimonio img {
+    width: 70px;
+    padding-bottom: 15px;
+    
+    }
+.testimonio h5 {
+    color:#3F4868;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25,17px;
+    text-align: center;
+    letter-spacing: -1%;
+    padding-top: 15px;
+}
+
+.testimonio p{
+    color:#B9B9C1;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -1%;
+    padding-top: 15px;
+    
+}
+
+#testimonios-boton-getStarted {
+    text-align: center;
+    }
+/*Frame*/
+
+#frame{
+    background-color: #F3613C;
+    width: 1440px;
+    height:224px;
+}
+
+    /*footer*/
+footer {
+background-color:#1E1E26;
+width: 1440px;
+height: 247px;
+
+}
+
+/*medias query*/
+@media (max-width: 375px){
+    body {background-color:red;
+    }
+
+    
+}
+/*
+https://www.youtube.com/watch?v=xQstBIPeOdU&list=PL9T-KKyKXNCkoNtv_iK10LJhuuGCKWTcW&index=8
+*/
+/*para borrar al final*/
+
+#divborrador {
+    background-color: yellow;
+    height: 500px;
+    width: 1440px;
+}

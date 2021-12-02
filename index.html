@@ -26,9 +26,9 @@
             </ul>
         </nav>
         <form class="form-getStarted">
-            <button class="button-getStarted">Get started</button>
+            <button class="button-getStarted" type="button">Get started</button>
         </form>
-        <button class="menu-barras">
+        <button class="menu-barras" type="button">
             <img src="img/icon-hamburger.svg">
         </button>
     </header>
@@ -63,8 +63,8 @@
             </div>
             <div id="article">
                 <article class="articles" id="article1">
-                    <form>
-                        <button class="button-articles">01</button>
+                    <form  action="/registro" method="POST">
+                        <button class="button-articles" type="button" name="articles-statistics">01</button> <!-- Botones utilizados para establecer estadísticas de preferencia-->
                     </form>
                                      
                     <div class=articles-texto>
@@ -74,7 +74,7 @@
                 </article>
                 <article class="articles" id="article2">
                     <form>
-                        <button class="button-articles">02</button>
+                        <button class="button-articles" type="button">02</button>
                     </form>
                                      
                     <div class=articles-texto>
@@ -84,7 +84,7 @@
                 </article>
                 <article class="articles" id="article1">
                     <form>
-                        <button class="button-articles">03</button>
+                        <button class="button-articles" type="button">03</button>
                     </form>
                                      
                     <div class=articles-texto>
@@ -117,7 +117,7 @@
         </div>
         <div id="testimonios-boton-getStarted">
             <form class="form-getStarted">
-                <button class="button-getStarted">Get started</button>
+                <button class="button-getStarted" type="button">Get started</button>
             </form>
         </div>
     </section>
@@ -127,7 +127,7 @@
             <p>Simplify hoy your team
                 words today.</p>
             <form class="form-getStarted">
-                <button class="button-getStarted">Get started</button>
+                <button class="button-getStarted" type="button">Get started</button>
             </form>
         </div>
     </section>
@@ -160,10 +160,10 @@
             </ul>
         </nav>
     
-        <div>
-            <form class="input-go" action="/registro" method="POST" >
-                <input type="email" name="email" placeholder="Update in your inbox...">
-                <button class="button-go">Go</button>
+        <div id="div-footer-right">
+            <form class="form-input-go" action="/registro" method="POST" >
+                <input type="email" name="email" placeholder="Update in your inbox..." required>
+                <button class="button-go" type="button" >Go</button>
             </form>
 
             <span class="copyright">Copyright 2020. All Rights Reserved</span>

@@ -5,10 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-*/
 
-body {background-color: rgb(19, 18, 17);
-    width: 1440px;
+
+body {
     font-size: 16px;
     font-family:'Be Vietnam Pro', sans-serif;
     
@@ -355,6 +354,22 @@ padding:0 10%;
     
 }
 
+.input-go input {
+    border-radius: 50px;
+    color: white;
+    background-color: white;
+    
+    padding: 15px;
+    width: 201px;
+    height: 44px;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+}
+
+.copyright {
+    color: #8C8C94;
+    padding-top: 10%;
+    
+}
 
 
 

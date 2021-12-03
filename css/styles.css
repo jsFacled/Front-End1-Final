@@ -44,6 +44,7 @@ header {
 }
 
 .menu-link:hover {
+    color: #F3603B;
     font-weight: bold;
     transition: 0.2s;
 }
@@ -399,11 +400,17 @@ padding:0 10%;
 
             
         /*  Header*/
-
-        header {background-color: yellow;
+        * {
+            margin: 0%;
+        }
+        body {
+            width: 375px;
+        }
+        header {
             height: 50px;
             align-items:0;
             width: 100%;
+            margin: 0%;
         }
 
         #menu {
@@ -421,69 +428,94 @@ padding:0 10%;
         /*Main tiene 2 secciones: ". Home" y "# Nosotros" */
 
         /*Main "Home"*/
+
         .home {
             flex-direction:column-reverse;
+            justify-content: center;
+            align-content: center;
+            width: 100%;
+            margin: 0%;
         }
 
-        /*.home-button{        }*/
+        #principal{
+            width: 100%;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
 
+
+        }
+
+        #home-button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+                        
+        }
+        
         #principal h1{
             color:#232C50;
             font-family: 'Be Vietnam Pro', sans-serif;
-            font-size: 58px;
+            font-size: 42px;
             font-style: normal;
             font-weight: 700;
             line-height: 66px;
             letter-spacing: -0.035em;
-            padding: 10px;
-            text-align: left;
+            padding: 0px;
+            text-align: center;
             
         }
 
         #principal p{
             font-family: 'Be Vietnam Pro', sans-serif;
             font-weight: 500;
-            font-size: 16,56px;
+            font-size: 14px;
             line-height: 26,01px;
-            padding: 15px;
-            width: 350px;
+            padding: 0px;
+            text-align: center;
         }
 
         #principal form{
             padding-top: 20px;
-            padding-left: 10px;
+            padding-left: 0px;
+            display: flex;
+            align-content: center;
         }
         #principal-2 {
             width: 375px;
         }
         .home img {
-            /*Width: 540px;*/
             max-width: 375px;
         }
 
         /*Main "Nosotros"*/
-        #nosotros{
-            display: flex;
-            margin-left: 10%;
-            margin-right: 10%;
-            justify-content: space-between ;
-        }
+        #nosotros{ background-color: tomato;
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            margin: 0%;
+            }
 
             /*caja principal*/
-        #about{
-            width: 50%;
+        #about{background-color: yellow;
+            width: 100%;
         }
-        h2{
+        h2{background-color: tomato;
+            display: flex;
             color:#232851;
             font-family: 'Be Vietnam Pro', sans-serif;
-            font-size: 36px;
+            font-size: 30px;
             font-style: normal;
             font-weight: 700;
             line-height: 41,26px;
             letter-spacing: -0.035em;
-            padding: 10px;
-            text-align: left;
-            width: 70%;
+            padding: 0px 10px;
+            
+            width: 100%;
+            margin: 0 5%;
         }
 
         #about p{
